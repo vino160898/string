@@ -1,0 +1,10 @@
+name="Andromeda_galaxy"
+print(name)           #Andromeda_galaxy
+print(name[0])        #A
+print(name[0:4])      #Andr
+print(name[1:3])      #nd
+print(name[:])        #Andromeda_galaxy
+print(type(name[:]))  #<class 'string'>
+print(name[-1:])      #y
+print(name[1:-3])     #ndromeda_gal
+print(name[1:-7])     #ndromeda
