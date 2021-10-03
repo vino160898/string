@@ -1,0 +1,45 @@
+#input=a1b2c3
+#output=abbccc,aabbccc
+
+
+data=a1b2c3
+output=" "
+for i in data:
+  i.isalpha():
+    otput=output+i
+    previous=i
+  else:
+    output=output+char(ord(previous)*int(i))
+    print(output)
+----------------------------------------------------------------------------------
+#input=a5b6c7
+#output=afbhcj
+
+
+data="a5b6c7"
+output=''
+for i in data:
+	if i.isalpha():
+		output=output+i
+		previous=i
+	else:
+		output=output+chr(ord(previous)+int(i))
+else:
+	print(output)
+----------------------------------------------------------------------------------
+#input:
+#s1="oypc"
+#s2="lmis"
+#output: olympic  ,  olympics
+
+s1='oypc'
+s2='lmis'
+result=''
+i=0
+small=len(s1) if len(s1)<len(s2) else len(s2)
+while i <small:
+  result=result+s1[i]+s2[i]
+  i+=1
+else:
+  #result=result+s1[-1]
+  print(result)
